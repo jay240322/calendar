@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #112D4E;
+    gap: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.calendar {
+    border-radius: 8px;
+    background: white;
+}
+.header {
+    background: #3F72AF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+.day {
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.day:hover {
+    background: #444242;
+    color: white;
+}
+.today {
+    background: #007bff;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 40px;
+    background-color: #526D82;
+    color: white;
+}
+.button1{
+    margin-left: 0px;
+    justify-content: fixed;
+}
+.button2{
+    margin-left: 250px;
+}
+.week{
+    height: 60px;
+    width:auto;
+    display: flex;
+    background-color: #DBE2EF;
+}
+.week-name{
+    height: 20px;
+    width:20px;
+    font-size: 21px;
+    padding: 20px;
+    color:#393E46;
+    font-weight: bold;
+      &:hover{
+        cursor: pointer;
+      }
+
+}
+.week-name:hover .name{
+    display: block;
+}
+.name{
+    height: 30px;
+    width:120px;
+    color: white;
+    display:none;
+    background-color: #9a78d0;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -50px;
+}
+.note{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #98afc8;
+}
+.create{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box{
+    height:80px;
+    width: 350px;
+    margin-top: 20px;
+   margin-left: 20px;
+}

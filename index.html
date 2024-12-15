@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Calendar</title>
+    <link rel="stylesheet"href="design.css">
+</head>
+<body>
+    <!--<div class="note"> 
+         <div class="create"></div>
+         <input type="text"class="box"> -->
+    </div> 
+    <div class="calendar">
+        <div class="header">
+            <h1 id="monthYear"></h2>
+            <button onclick="prevMonth()"class="button1">&#10094;</button>
+            <button onclick="nextMonth()"class="button2">&#10095;</button>
+        </div>
+        <div class="week">
+             <div class="week-name">
+                M
+                  <div class="name">Monday</div>
+            </div>
+             <div class="week-name">
+                T
+                 <div class="name">Tuesday</div>
+            </div>
+             <div class="week-name">
+                W
+                 <div class="name">wednesday</div>
+            </div>
+             <div class="week-name">
+                T
+                 <div class="name">Thrusday</div>
+            </div>
+             <div class="week-name">
+                F
+                 <div class="name">Friday</div>
+            </div>
+             <div class="week-name">
+                S
+                 <div class="name">Saturday</div>
+            </div>
+             <div class="week-name"style="color:red">
+                S
+                <div class="name">Sunday</div>
+            </div>
+        </div>
+        <div class="days" id="days"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>  
