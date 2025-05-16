@@ -145,7 +145,7 @@ button {
   }
   .buttons {
     display: flex;
-    gap:10px;
+    gap:40px;
   }
   .days {
     grid-template-columns: repeat(7, 1fr); /* Adjust to 3 columns */
