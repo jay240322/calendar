@@ -139,13 +139,12 @@ button {
   .button2 {
     justify-content: center; /* center horizontally */
     align-items: center; /* center vertically */
-    margin: 10px auto; /* center horizontally in parent */
+    margin: 30px auto; /* center horizontally in parent */
     height: 45px; /* slightly taller for better tap area */
     width: 15%; /* wider for mobile */
   }
   .buttons {
     display: flex;
-    gap:40px;
   }
   .days {
     grid-template-columns: repeat(7, 1fr); /* Adjust to 3 columns */
