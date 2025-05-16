@@ -131,14 +131,7 @@ button {
     margin: 80px auto;
     box-shadow: 0px 10px 30px rgba(245, 244, 244, 0.5);
   }
-  /* button {
-    border: 1px solid red;
-    display: grid;
-    text-align: center;
-    align-items: center;
-    justify-content: baseline;
-    margin-bottom: -10px;
-  } */
+ 
   .button2 {
     margin-top: -20px;
   }
@@ -148,10 +141,11 @@ button {
     align-items: center; /* center vertically */
     margin: 10px auto; /* center horizontally in parent */
     height: 45px; /* slightly taller for better tap area */
-    width: 20%; /* wider for mobile */
+    width: 15%; /* wider for mobile */
   }
   .buttons {
     display: flex;
+    gap:10px;
   }
   .days {
     grid-template-columns: repeat(7, 1fr); /* Adjust to 3 columns */
